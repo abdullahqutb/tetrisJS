@@ -11,5 +11,10 @@ module.exports = {
     sourceType: 'module'
   },
   rules: {
+    semi: 'off',
+    'no-unused-vars': 'warn',
+    'prefer-const': 'warn'
+    // semi: ['off', 'always']
+    // no-unused-vars: ['warn', 'always']
   }
 }
